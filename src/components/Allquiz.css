@@ -1,0 +1,46 @@
+.quizbox{
+    transition: transform 0.2s;
+}
+
+.quizbox:hover{
+    border-radius: 20px;
+    color: whitesmoke;
+    transform: scale(1.1);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-color: rgba(97, 95, 95, 0.234); */
+    background-color: rgba(65, 63, 63, 0.697)
+}
+.button1{
+    border: 1px solid white;
+    background-color: rgb(100, 99, 99);
+    color: rgb(255, 255, 255);
+    width: 60px;
+}
+.button1:hover{
+    border: 1px solid rgb(100, 99, 99);
+    background-color: rgba(255, 255, 255, 0.87);
+    color: rgb(100, 99, 99);
+}
+ul li{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 15px;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+ul li:hover{
+    border: 1px solid white;
+}
+.index{
+    font-family: "Poppins", sans-serif;
+}
+.container .Correct{
+    background-color: #00d31c;
+}
+.container .Wrong{
+    background-color: rgb(210, 18, 18);
+}
